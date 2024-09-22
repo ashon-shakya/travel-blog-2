@@ -12,10 +12,42 @@ html{
 
 #notificationBar {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     background-color: #f6ff00;
+    gap:50% ;
+    height: auto;
+}
+#notificationBarIcons{
+    color: black;   
+}
+
+#notificationBarIcons a{
+    margin:1px;
+}
+
+
+#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(0, 166, 255);
+    gap:50%;
+}
+#navBarLogo a img{
+    width: 60px;
+}
+#navBarLinks a{
+    text-decoration: none;
+    color: #ffffff;
+    margin:5px;
+}
+
+@media only screen and ( max-width:800px ) {
+    #notificationBar { 
+       flex-direction: column;
+    }
 
     
-
 }
