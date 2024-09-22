@@ -43,6 +43,13 @@ html{
     color: #ffffff;
     margin:5px;
 }
+.welcomeContainer{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+
+}
 
 @media only screen and ( max-width:800px ) {
     #notificationBar { 
